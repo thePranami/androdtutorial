@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">MyTutorial</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"><b>Android Development Tutorial</b></string>
+    <string name="nav_header_subtitle"><b><i>Developed By S. K. Pranami</i></b> </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"><b>Welcome"\n" To"\n" Android Tutorial</b></string>
+
+    <!-- android_overview1 -->
+    <string name="android_overview1"><b> What is Android ?</b>\n Android is an open source and Linux-based Operating System for mobile devices such as smartphones and tablet computers.
+        Android was developed by the Open Handset Alliance, led by Google, and other companies.\n Android offers a unified approach to application development for mobile devices
+        which means developers need only develop for Android, and their applications should be able to run on different devices powered by Android.\n
+    The first beta version of the Android Software Development Kit (SDK) was released by Google in 2007 where as the first commercial version, Android 1.0, was released in September 2008.\n
+    On June 27, 2012, at the Google I/O conference, Google announced the next Android version, 4.1 Jelly Bean. Jelly Bean is an incremental update, with the primary aim of improving the
+        user interface, both in terms of functionality and performance.\n The source code for Android is available under free and open source software licenses. Google publishes most of the code
+        under the Apache License version 2.0 and the rest, Linux kernel changes, under the GNU General Public License version 2.\n\n
+        <b>Why Android ? </b></string>
+
+    <!-- android_overview2 -->
+    <string name="android_overview2"> <b>Features of Android</b>\n\nAndroid is a powerful operating system competing with Apple 4GS and supports great features. Few of them are listed below −\n\n
+    <b><i>1. Beautiful UI: </i></b>Android OS basic screen provides a beautiful and intuitive user interface.\n\n
+    <b><i>2. Connectivity: </i></b>GSM/EDGE, IDEN, CDMA, EV-DO, UMTS, Bluetooth, Wi-Fi, LTE, NFC and WiMAX.\n\n
+    <b><i>3. Storage: </i></b>SQLite, a lightweight relational database, is used for data storage purposes.\n\n
+    <b><i>4. Media support: </i></b>H.263, H.264, MPEG-4 SP, AMR, AMR-WB, AAC, HE-AAC, AAC 5.1, MP3, MIDI, Ogg Vorbis, WAV, JPEG, PNG, GIF, and BMP.\n\n
+    <b><i>5. Messaging: </i></b>SMS and MMS\n\n
+    <b><i>6. Web browser: </i></b>Based on the open-source WebKit layout engine, coupled with Chrome V8 JavaScript engine supporting HTML5 and CSS3.\n\n
+    <b><i>7. Multi-touch: </i></b>Android has native support for multi-touch which was initially made available in handsets such as the HTC Hero.\n\n
+    <b><i>8. Multi-tasking: </i></b>User can jump from one task to another and same time various application can run simultaneously.\n\n
+    <b><i>9. Multi-Language: </i></b>Supports single direction and bi-directional text.\n\n
+    <b><i>10. GCM: </i></b>Google Cloud Messaging (GCM) is a service that lets developers send short message data to their users on Android devices, without needing a proprietary sync solution.\n\n
+    <b><i>11. Wi-Fi Direct: </i></b>A technology that lets apps discover and pair directly, over a high-bandwidth peer-to-peer connection.\n\n
+    <b><i>12. Android Beam: </i></b>A popular NFC-based technology that lets users instantly share, just by touching two NFC-enabled phones together.\n\n
+    <b>Android Applications</b>\n\nAndroid applications are usually developed in the Java language using the Android Software Development Kit.\n
+    Once developed, Android applications can be packaged easily and sold out either through a store such as Google Play, SlideME, Opera Mobile Store, Mobango, F-droid and the Amazon Appstore.\n
+    Android powers hundreds of millions of mobile devices in more than 190 countries around the world. It is the largest installed base of any mobile platform and growing fast. Every day more than 1 million new Android devices are activated worldwide.</string>
+
+
+    <string name="android_environmentsetup">You will be glad to know that you can start your Android application development on either of the following operating systems −\n
+
+        <b>•</b> Microsoft Windows XP or later version.\n
+    <b>•</b> Mac OS X 10.5.8 or later version with Intel chip.\n
+    <b>•</b> Linux including GNU C Library 2.7 or later.\n\n
+    Second point is that all the required tools to develop Android applications are freely available and can be downloaded from the Web. Following is the list of software you will need before you start your Android application programming.\n\n
+    <b>•</b> Java JDK5 or later version.\n
+    <b>•</b> Android Studio.\n\n
+    Here last two components are optional and if you are working on Windows machine then these components make your life easy while doing Java based application development. So let us have a look how to proceed to set required environment.\n\n
+        <b>Set-up Java Development Kit (JDK)</b>\n\n
+    You can download the latest version of Java JDK from Oracles Java site − Java SE Downloads. You will find instructions for installing JDK in downloaded files, follow the given instructions to install and configure the setup. Finally set PATH and JAVA_HOME environment variables to refer to the directory that contains java and javac, typically java_install_dir/bin and java_install_dir respectively.\n
+    If you are running Windows and installed the JDK in C:\jdk1.8.0_102, you would have to put the following line in your C:\autoexec.bat file.\n\n
+    set PATH=C:\jdk1.8.0_102\bin;%PATH%\n
+    set JAVA_HOME=C:\jdk1.8.0_102\n\n
+    Alternatively, you could also right-click on My Computer, select Properties, then Advanced, then Environment Variables. Then, you would update the PATH value and press the OK button.\n
+    On Linux, if the SDK is installed in /usr/local/jdk1.8.0_102 and you use the C shell, you would put the following code into your .cshrc file.\n\n
+    setenv PATH /usr/local/jdk1.8.0_102/bin:$PATH\n
+    setenv JAVA_HOME /usr/local/jdk1.8.0_102\n\n
+    Alternatively, if you use Android studio, then it will know automatically where you have installed your Java.\n\n
+    <b>Android IDEs</b>\n\n
+    There are so many sophisticated Technologies are available to develop android applications, the familiar technologies, which are predominantly using tools as follows\n\n
+    1. Android Studio\n
+    2. Eclipse IDE</string>
+
+    <!-- Android Architecture TextView 1 -->
+    <string name="android_architecture1"> Android operating system is a stack of software components which is roughly divided into five sections and four main layers as shown below in the architecture diagram-  \n
+    1. Linux kernel\n
+    2. Native libraries (middleware)\n
+    3. Android Runtime\n
+    4. Application Framework\n
+    5. Applications</string>
+
+
+    <!-- Android Architecture TextView 2 -->
+    <string name="android_architecture2">
+    <b>1) Linux kernel</b>\n
+    It is the heart of android architecture that exists at the root of android architecture. Linux kernel is responsible for device drivers, power management, memory management, device management and resource access.\n\n
+    <b>2) Native Libraries</b>\n
+    On the top of linux kernel, their are Native libraries such as WebKit, OpenGL, FreeType, SQLite, Media, C runtime library (libc) etc.\n
+    The WebKit library is responsible for browser support, SQLite is for database, FreeType for font support, Media for playing and recording audio and video formats.\n\n
+    <b>3) Android Runtime</b>\n
+    In android runtime, there are core libraries and DVM (Dalvik Virtual Machine) which is responsible to run android application. DVM is like JVM but it is optimized for mobile devices. It consumes less memory and provides fast performance.\n\n
+    <b>4) Android Framework</b>\n
+    On the top of Native libraries and android runtime, there is android framework. Android framework includes Android APIs such as UI (User Interface), telephony, resources, locations, Content Providers (data) and package managers. It provides a lot of classes and interfaces for android application development.\n\n
+    <b>5) Applications</b>\n
+    On the top of android framework, there are applications. All applications such as home, contact, settings, games, browsers are using android framework that uses android runtime and libraries. Android runtime and native libraries are using linux kernal.</string>
+
+    <string name="android_application_component">  Application components are the essential building blocks of an Android application. These components are loosely coupled by the application manifest file AndroidManifest.xml that describes each component of the application and how they interact.\n
+    There are following four main components that can be used within an Android application −\n\n
+    <b>1. Activities</b>\n
+    An activity represents a single screen with a user interface,in-short Activity performs actions on the screen. For example, an email application might have one activity that shows a list of new emails, another activity to compose an email, and another activity for reading emails. If an application has more than one activity, then one of them should be marked as the activity that is presented when the application is launched.\n
+    An activity is implemented as a subclass of Activity class as follows −\n
+    public class MainActivity extends Activity {
+}\n\n
+    <b>2. Services</b>\n
+        A service is a component that runs in the background to perform long-running operations. For example, a service might play music in the background while the user is in a different application, or it might fetch data over the network without blocking user interaction with an activity.\n
+        A service is implemented as a subclass of Service class as follows −\n
+        public class MyService extends Service {
+}\n\n
+    <b>3. Broadcast Receivers</b>\n
+    Broadcast Receivers simply respond to broadcast messages from other applications or from the system. For example, applications can also initiate broadcasts to let other applications know that some data has been downloaded to the device and is available for them to use, so this is broadcast receiver who will intercept this communication and will initiate appropriate action\n
+    A broadcast receiver is implemented as a subclass of BroadcastReceiver class and each message is broadcaster as an Intent object.\n
+    public class MyReceiver  extends  BroadcastReceiver {
+   public void onReceive(context,intent){}
+}\n\n
+    <b>4. Content Providers</b>\n
+    A content provider component supplies data from one application to others on request. Such requests are handled by the methods of the ContentResolver class. The data may be stored in the file system, the database or somewhere else entirely.\n
+    A content provider is implemented as a subclass of ContentProvider class and must implement a standard set of APIs that enable other applications to perform transactions.\n
+    public class MyContentProvider extends  ContentProvider {
+   public void onCreate(){}
+}\n\n
+    We will go through these tags in detail while covering application components in individual chapters.\n\n
+    <b>Additional Components</b>\n
+    There are additional components which will be used in the construction of above mentioned entities, their logic, and wiring between them. These components are −\n\n
+    <b>1. Fragments: </b>Represents a portion of user interface in an Activity.\n
+    <b>2. Views: </b>UI elements that are drawn on-screen including buttons, lists forms etc.\n
+    <b>3. Layouts: </b>View hierarchies that control screen format and appearance of the views.\n
+    <b>4. Intents: </b>Messages wiring components together.\n
+    <b>5. Resources: </b>External elements, such as strings, constants and drawable pictures.\n
+    <b>6. Manifest: </b>Configuration file for the application.\n</string>
+
+    <string name="android_resources">There are many more items which you use to build a good Android application. Apart from coding for the application, you take care of various other resources like static content that your code uses, such as bitmaps, colors, layout definitions, user interface strings, animation instructions, and more. These resources are always maintained separately in various sub-directories under res/ directory of the project.\n
+    This tutorial will explain you how you can organize your application resources, specify alternative resources and access them in your applications.\n\
+    <b>Organize resource in Android Studio</b>\n
+    MyProject/
+   app/
+      manifest/
+        AndroidManifest.xml
+   java/
+      MyActivity.java
+      res/
+         drawable/
+            icon.png
+         layout/
+            activity_main.xml
+            info.xml
+         values/
+            strings.xml</string>
+
+    <string name="android_activities"><b>What is Activity? </b>\n
+    An activity represents a single screen with a user interface just like window or frame of Java.Android activity is the subclass of ContextThemeWrapper class.\n
+    If you have worked with C, C++ or Java programming language then you must have seen that your program starts from main() function. Very similar way, Android system initiates its program with in an Activity starting with a call on onCreate() callback method. There is a sequence of callback methods that start up an activity and a sequence of callback methods that tear down an activity as shown in the below Activity life cycle diagram: </string>
+
+
+    <string name="android_uilayouts">The basic building block for user interface is a View object which is created from the View class and occupies a rectangular area on the screen and is responsible for drawing and event handling. View is the base class for widgets, which are used to create interactive UI components like buttons, text fields, etc.\n
+    The ViewGroup is a subclass of View and provides invisible container that hold other Views or other ViewGroups and define their layout properties.
+
+At third level we have different layouts which are subclasses of ViewGroup class and a typical layout defines the visual structure for an Android user interface and can be created either at run time using View/ViewGroup objects or you can declare your layout using simple XML file main_layout.xml which is located in the res/layout folder of your project.\n\n
+    <b>Android Layout Types</b>\
+    <b>1. Linear Layout: </b>LinearLayout is a view group that aligns all children in a single direction, vertically or horizontally.\n\n
+    <b>2. Relative Layout: </b>RelativeLayout is a view group that displays child views in relative positions.\n\n
+    <b>3. Table Layout: </b>TableLayout is a view that groups views into rows and columns.\n\n
+    <b>4. Absolute Layout: </b>AbsoluteLayout enables you to specify the exact location of its children.\n\n
+    <b>5. Frame Layout: </b>The FrameLayout is a placeholder on screen that you can use to display a single view.\n\n
+    <b>6. List View: </b>ListView is a view group that displays a list of scrollable items.\n\n
+    <b>7. Grid View: </b>GridView is a ViewGroup that displays items in a two-dimensional, scrollable grid.\n\n
+    <b>Layout Attributes</b>\n
+    Each layout has a set of attributes which define the visual properties of that layout. There are few common attributes among all the layouts and their are other attributes which are specific to that layout. Following are common attributes and will be applied to all the layouts:</string>
+
+
+    <string name="android_uicontrols">  Input controls are the interactive components in your apps user interface. Android provides a wide variety of controls you can use in your UI, such as buttons, text fields, seek bars, check box, zoom buttons, toggle buttons, and many more.\n
+    A View is an object that draws something on the screen that the user can interact with and a ViewGroup is an object that holds other View (and ViewGroup) objects in order to define the layout of the user interface.\n
+    You define your layout in an XML file which offers a human-readable structure for the layout, similar to HTML. For example, a simple vertical layout with a text view and a button looks like this −\n\n
+    <b>Android UI Controls</b>\n
+    There are number of UI controls provided by Android that allow you to build the graphical user interface for your app.\n\n
+    <b>1. TextView: </b>This control is used to display text to the user.\n\n
+    <b>2. EditText: </b>EditText is a predefined subclass of TextView that includes rich editing capabilities.\n\n
+    <b>3. AutoCompleteTextView: </b>The AutoCompleteTextView is a view that is similar to EditText, except that it shows a list of completion suggestions automatically while the user is typing.\n\n
+    <b>4. Button: </b>A push-button that can be pressed, or clicked, by the user to perform an action.\n\n
+    <b>5. ImageButton: </b>An ImageButton is an AbsoluteLayout which enables you to specify the exact location of its children. This shows a button with an image (instead of text) that can be pressed or clicked by the user.\n\n
+    <b>6. CheckBox: </b>An on/off switch that can be toggled by the user. You should use check box when presenting users with a group of selectable options that are not mutually exclusive.\n\n
+    <b>7. ToggleButton: </b>An on/off button with a light indicator.\n\n
+    <b>8. RadioButton: </b>The RadioButton has two states: either checked or unchecked.\n\n
+    <b>9. RadioGroup: </b>A RadioGroup is used to group together one or more RadioButtons.\n\n
+    <b>10. ProgressBar: </b>The ProgressBar view provides visual feedback about some ongoing tasks, such as when you are performing a task in the background.\n\n
+    <b>11. Spinner: </b>A drop-down list that allows users to select one value from a set.\n\n
+    <b>12. TimePicker: </b>The TimePicker view enables users to select a time of the day, in either 24-hour mode or AM/PM mode.\n\n
+    <b>13. DatePicker: </b>The DatePicker view enables users to select a date of the day.\n\n</string>
+
+
+    <string name="android_event_handling"><b>Events are a useful way to collect data about a users interaction with interactive components of Applications</b>. Like button presses or screen touch etc. The Android framework maintains an event queue as first-in, first-out (FIFO) basis. You can capture these events in your program and take appropriate action as per requirements.\n
+    There are following three concepts related to Android Event Management −\n\n
+    <b>· Event Listeners − </b>An event listener is an interface in the View class that contains a single callback method. These methods will be called by the Android framework when the View to which the listener has been registered is triggered by user interaction with the item in the UI.\n\n
+    <b>· Event Listeners Registration − </b>Event Registration is the process by which an Event Handler gets registered with an Event Listener so that the handler is called when the Event Listener fires the event.\n\n
+    <b>· Event Handlers − </b>When an event happens and we have registered an event listener for the event, the event listener calls the Event Handlers, which is the method that actually handles the event.\n\n</string>
+
+
+    <string name="android_drag_drop"> Android drag/drop framework allows your users to move data from one View to another View in the current layout using a graphical drag and drop gesture. As of API 11 drag and drop of view onto other views or view groups is supported.The framework includes following three important components to support drag and drop functionality −\n\n
+    <b>· Drag event class.</b>\n
+    <b>· Drag listeners.</b>\n
+    <b>· Helper methods and classes.</b>\n\n
+    <b>The Drag/Drop Process</b>\n
+    There are basically four steps or states in the drag and drop process −\n\n
+    <b>1. Started </b>− This event occurs when you start dragging an item in a layout, your application calls startDrag() method to tell the system to start a drag. The arguments inside startDrag() method provide the data to be dragged, metadata for this data, and a callback for drawing the drag shadow.\n
+    The system first responds by calling back to your application to get a drag shadow. It then displays the drag shadow on the device.\n
+    Next, the system sends a drag event with action type ACTION_DRAG_STARTED to the registered drag event listeners for all the View objects in the current layout.\n
+    To continue to receive drag events, including a possible drop event, a drag event listener must return true, If the drag event listener returns false, then it will not receive drag events for the current operation until the system sends a drag event with action type ACTION_DRAG_ENDED.\n\n
+    <b>2. Continuing </b>− The user continues the drag. System sends ACTION_DRAG_ENTERED action followed by ACTION_DRAG_LOCATION action to the registered drag event listener for the View where dragging point enters. The listener may choose to alter its View objects appearance in response to the event or can react by highlighting its View.\n
+    The drag event listener receives a ACTION_DRAG_EXITED action after the user has moved the drag shadow outside the bounding box of the View.\n\n
+    <b>3. Dropped </b>− The user releases the dragged item within the bounding box of a View. The system sends the View objects listener a drag event with action type ACTION_DROP.\n\n
+    <b>4. Ended </b>− Just after the action type ACTION_DROP, the system sends out a drag event with action type ACTION_DRAG_ENDED to indicate that the drag operation is over.\n\n
+    </string>
+</resources>
